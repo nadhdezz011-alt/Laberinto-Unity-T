@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 36126339}
   - component: {fileID: 36126338}
   m_Layer: 0
-  m_Name: Muro interior (10)
+  m_Name: MuroInterior 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,11 +221,11 @@ Transform:
   m_GameObject: {fileID: 36126337}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.5802579, z: -0, w: 0.8144328}
-  m_LocalPosition: {x: -6.75, y: 0.45, z: 3.63}
+  m_LocalPosition: {x: -7.49652, y: 3.1595037, z: 3.1279728}
   m_LocalScale: {x: 4.326217, y: 0.9054913, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: -70.937, z: 0}
 --- !u!1 &186252987
 GameObject:
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 186252989}
   - component: {fileID: 186252988}
   m_Layer: 0
-  m_Name: Muro interior (15)
+  m_Name: ObstaculoFlotante 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -329,11 +329,11 @@ Transform:
   m_GameObject: {fileID: 186252987}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6423769, z: -0, w: 0.76638895}
-  m_LocalPosition: {x: -1.15, y: 0.45, z: -6.45}
-  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.039913658}
+  m_LocalPosition: {x: -1.8965199, y: 3.1595037, z: -6.9520273}
+  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.03991366}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 729980502}
   m_LocalEulerAnglesHint: {x: 0, y: 79.939, z: 0}
 --- !u!1 &305688036
 GameObject:
@@ -436,12 +436,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305688036}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.56, y: 0.45, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.246892, y: -1.0563285, z: -0.62976074}
   m_LocalScale: {x: 0.6739511, y: 0.93413, z: 19.884388}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1268275498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
@@ -591,7 +591,6 @@ GameObject:
   - component: {fileID: 410087041}
   - component: {fileID: 410087040}
   - component: {fileID: 410087042}
-  - component: {fileID: 410087043}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -702,18 +701,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
---- !u!114 &410087043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410087039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 753294c88ed78bc43a0a8eb44f4c52fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &447091340
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,7 +714,7 @@ GameObject:
   - component: {fileID: 447091342}
   - component: {fileID: 447091341}
   m_Layer: 0
-  m_Name: Muro interior (16)
+  m_Name: ObstaculoFlotante 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -816,11 +803,11 @@ Transform:
   m_GameObject: {fileID: 447091340}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6423769, z: -0, w: 0.76638895}
-  m_LocalPosition: {x: -3.8, y: 0.45, z: 6.11}
-  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.039913658}
+  m_LocalPosition: {x: -4.5465198, y: 3.1595037, z: 5.607973}
+  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.03991366}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 729980502}
   m_LocalEulerAnglesHint: {x: 0, y: 79.939, z: 0}
 --- !u!1 &493369404
 GameObject:
@@ -835,7 +822,7 @@ GameObject:
   - component: {fileID: 493369406}
   - component: {fileID: 493369405}
   m_Layer: 0
-  m_Name: Muro interior (6)
+  m_Name: MuroInterior 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,11 +911,11 @@ Transform:
   m_GameObject: {fileID: 493369404}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.10851597, z: -0, w: 0.9940947}
-  m_LocalPosition: {x: 2.4, y: 0.45, z: -4.93}
+  m_LocalPosition: {x: 1.65348, y: 3.1595037, z: -5.432027}
   m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: 12.46, z: 0}
 --- !u!1 &578088218
 GameObject:
@@ -1050,6 +1037,7 @@ GameObject:
   - component: {fileID: 645437624}
   - component: {fileID: 645437623}
   - component: {fileID: 645437622}
+  - component: {fileID: 645437626}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -1140,10 +1128,104 @@ Transform:
   m_GameObject: {fileID: 645437621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.97, y: 0.171, z: 8.15}
+  m_LocalPosition: {x: 7.96, y: 0.171, z: 8.15}
   m_LocalScale: {x: 1, y: 0.35777, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &645437626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645437621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391e3ea0748d41842b4fe55575d17b3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movimientoEjeX: -1
+  movimientoEjey: 0
+  movimientoEjez: 0
+--- !u!1 &729980501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 729980502}
+  m_Layer: 0
+  m_Name: 'ObstaculosFlotantes '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &729980502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729980501}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.74652, y: -2.7095037, z: 0.5020273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1473806983}
+  - {fileID: 447091344}
+  - {fileID: 186252991}
+  - {fileID: 2135484485}
+  - {fileID: 1813488053}
+  - {fileID: 1183837393}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &795566922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 795566923}
+  m_Layer: 0
+  m_Name: MurosInteriores
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &795566923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795566922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.74652, y: -2.7095037, z: 0.5020273}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 36126341}
+  - {fileID: 992818273}
+  - {fileID: 1098316251}
+  - {fileID: 493369408}
+  - {fileID: 1202688528}
+  - {fileID: 1636004948}
+  - {fileID: 2101616858}
+  - {fileID: 1768320894}
+  - {fileID: 1376682128}
+  - {fileID: 1801384114}
+  - {fileID: 982893672}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &982893668
@@ -1159,7 +1241,7 @@ GameObject:
   - component: {fileID: 982893670}
   - component: {fileID: 982893669}
   m_Layer: 0
-  m_Name: Muro interior (11)
+  m_Name: MuroInterior 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1248,11 +1330,11 @@ Transform:
   m_GameObject: {fileID: 982893668}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.568757, z: -0, w: 0.82250565}
-  m_LocalPosition: {x: 2.76, y: 0.45, z: 4.49}
-  m_LocalScale: {x: 4.326217, y: 0.9054913, z: 0.5060754}
+  m_LocalPosition: {x: 2.01348, y: 3.1595037, z: 3.9879725}
+  m_LocalScale: {x: 4.326217, y: 0.9054913, z: 0.5060753}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: -69.327, z: 0}
 --- !u!1 &992818269
 GameObject:
@@ -1267,7 +1349,7 @@ GameObject:
   - component: {fileID: 992818271}
   - component: {fileID: 992818270}
   m_Layer: 0
-  m_Name: Muro interior (2)
+  m_Name: MuroInterior 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1356,11 +1438,11 @@ Transform:
   m_GameObject: {fileID: 992818269}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.37410316, z: -0, w: 0.9273871}
-  m_LocalPosition: {x: -3.01, y: 0.45, z: -0.38}
-  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.5060754}
+  m_LocalPosition: {x: -3.75652, y: 3.1595037, z: -0.88202727}
+  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.5060753}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: 43.938, z: 0}
 --- !u!1 &1098316247
 GameObject:
@@ -1375,7 +1457,7 @@ GameObject:
   - component: {fileID: 1098316249}
   - component: {fileID: 1098316248}
   m_Layer: 0
-  m_Name: Muro interior (9)
+  m_Name: MuroInterior 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1464,11 +1546,11 @@ Transform:
   m_GameObject: {fileID: 1098316247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.0088493815, z: -0, w: 0.99996084}
-  m_LocalPosition: {x: -8.04, y: 0.45, z: 3.57}
+  m_LocalPosition: {x: -8.78652, y: 3.1595037, z: 3.0679727}
   m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: -1.014, z: 0}
 --- !u!1 &1183837389
 GameObject:
@@ -1483,7 +1565,7 @@ GameObject:
   - component: {fileID: 1183837391}
   - component: {fileID: 1183837390}
   m_Layer: 0
-  m_Name: Muro interior (12)
+  m_Name: ObstaculoFlotante 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1572,11 +1654,11 @@ Transform:
   m_GameObject: {fileID: 1183837389}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6423769, z: -0, w: 0.76638895}
-  m_LocalPosition: {x: 6.49, y: 0.45, z: -2.89}
-  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.039913658}
+  m_LocalPosition: {x: 5.7434797, y: 3.1595037, z: -3.3920274}
+  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.03991366}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 729980502}
   m_LocalEulerAnglesHint: {x: 0, y: 79.939, z: 0}
 --- !u!1 &1202688524
 GameObject:
@@ -1591,7 +1673,7 @@ GameObject:
   - component: {fileID: 1202688526}
   - component: {fileID: 1202688525}
   m_Layer: 0
-  m_Name: Muro interior (3)
+  m_Name: MuroInterior 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1680,12 +1762,47 @@ Transform:
   m_GameObject: {fileID: 1202688524}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.0088493815, z: -0, w: 0.99996084}
-  m_LocalPosition: {x: 7.84, y: 0.45, z: -6.27}
+  m_LocalPosition: {x: 7.09348, y: 3.1595037, z: -6.772027}
   m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: -1.014, z: 0}
+--- !u!1 &1268275497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268275498}
+  m_Layer: 0
+  m_Name: Muros laterales
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1268275498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268275497}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3131084, y: 1.5063286, z: 0.62976074}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1483883788}
+  - {fileID: 1567326086}
+  - {fileID: 305688040}
+  - {fileID: 2132818565}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1376682124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,7 +1816,7 @@ GameObject:
   - component: {fileID: 1376682126}
   - component: {fileID: 1376682125}
   m_Layer: 0
-  m_Name: Muro interior (8)
+  m_Name: MuroInterior 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1788,11 +1905,11 @@ Transform:
   m_GameObject: {fileID: 1376682124}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7043156, z: -0, w: 0.7098871}
-  m_LocalPosition: {x: -6.02, y: 0.45, z: -6.33}
+  m_LocalPosition: {x: -6.76652, y: 3.1595037, z: -6.8320274}
   m_LocalScale: {x: 6.336524, y: 0.9054913, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: -89.549, z: 0}
 --- !u!1 &1473806979
 GameObject:
@@ -1807,7 +1924,7 @@ GameObject:
   - component: {fileID: 1473806981}
   - component: {fileID: 1473806980}
   m_Layer: 0
-  m_Name: Muro interior (17)
+  m_Name: ObstaculoFlotante 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1896,11 +2013,11 @@ Transform:
   m_GameObject: {fileID: 1473806979}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6423769, z: -0, w: 0.76638895}
-  m_LocalPosition: {x: -5.72, y: 0.45, z: -0.27}
-  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.039913658}
+  m_LocalPosition: {x: -6.46652, y: 3.1595037, z: -0.77202725}
+  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.03991366}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 729980502}
   m_LocalEulerAnglesHint: {x: 0, y: 79.939, z: 0}
 --- !u!1 &1483883784
 GameObject:
@@ -2003,12 +2120,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483883784}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.45, z: -9.68}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.3131084, y: -1.0563285, z: -10.309761}
   m_LocalScale: {x: 19.811432, y: 0.93413, z: 0.5598}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1268275498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1567326082
 GameObject:
@@ -2111,12 +2228,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567326082}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.45, z: 9.66}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.3131084, y: -1.0563285, z: 9.030239}
   m_LocalScale: {x: 19.551764, y: 0.93413, z: 0.5598}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1268275498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1636004944
 GameObject:
@@ -2131,7 +2248,7 @@ GameObject:
   - component: {fileID: 1636004946}
   - component: {fileID: 1636004945}
   m_Layer: 0
-  m_Name: Muro interior (7)
+  m_Name: MuroInterior 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2220,11 +2337,11 @@ Transform:
   m_GameObject: {fileID: 1636004944}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0016496499, y: 0.005307432, z: -0.0001328958, w: 0.99998456}
-  m_LocalPosition: {x: 4.39, y: 0.45, z: 4.51}
-  m_LocalScale: {x: 3.305671, y: 0.9054913, z: 0.5060754}
+  m_LocalPosition: {x: 3.6434798, y: 3.1595037, z: 4.0079727}
+  m_LocalScale: {x: 3.3056707, y: 0.9054914, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0.189, y: 0.608, z: -0.014}
 --- !u!1 &1768320890
 GameObject:
@@ -2239,7 +2356,7 @@ GameObject:
   - component: {fileID: 1768320892}
   - component: {fileID: 1768320891}
   m_Layer: 0
-  m_Name: Muro interior (4)
+  m_Name: MuroInterior 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2328,11 +2445,11 @@ Transform:
   m_GameObject: {fileID: 1768320890}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7043156, z: -0, w: 0.7098871}
-  m_LocalPosition: {x: -1.92, y: 0.45, z: 0.56}
-  m_LocalScale: {x: 7.642699, y: 0.9054913, z: 0.5060754}
+  m_LocalPosition: {x: -2.6665199, y: 3.1595037, z: 0.05797273}
+  m_LocalScale: {x: 7.6426983, y: 0.9054913, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: -89.549, z: 0}
 --- !u!1 &1801384110
 GameObject:
@@ -2347,7 +2464,7 @@ GameObject:
   - component: {fileID: 1801384112}
   - component: {fileID: 1801384111}
   m_Layer: 0
-  m_Name: Muro interior (5)
+  m_Name: MuroInterior 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2436,11 +2553,11 @@ Transform:
   m_GameObject: {fileID: 1801384110}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7043156, z: -0, w: 0.7098871}
-  m_LocalPosition: {x: 3.54, y: 0.45, z: -7.27}
+  m_LocalPosition: {x: 2.79348, y: 3.1595037, z: -7.772027}
   m_LocalScale: {x: 4.326217, y: 0.9054913, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: 0, y: -89.549, z: 0}
 --- !u!1 &1813488049
 GameObject:
@@ -2455,7 +2572,7 @@ GameObject:
   - component: {fileID: 1813488051}
   - component: {fileID: 1813488050}
   m_Layer: 0
-  m_Name: Muro interior (13)
+  m_Name: ObstaculoFlotante 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2544,11 +2661,11 @@ Transform:
   m_GameObject: {fileID: 1813488049}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6423769, z: -0, w: 0.76638895}
-  m_LocalPosition: {x: 1.27, y: 0.45, z: -0.9}
-  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.039913658}
+  m_LocalPosition: {x: 0.52348, y: 3.1595037, z: -1.4020272}
+  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.03991366}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 729980502}
   m_LocalEulerAnglesHint: {x: 0, y: 79.939, z: 0}
 --- !u!1 &2013169363
 GameObject:
@@ -2672,7 +2789,7 @@ GameObject:
   - component: {fileID: 2101616856}
   - component: {fileID: 2101616855}
   m_Layer: 0
-  m_Name: Muro interior (1)
+  m_Name: MuroInterior 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2760,12 +2877,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101616854}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.00025576376, y: -0.7013395, z: -0.00027413212, w: 0.71282727}
-  m_LocalPosition: {x: 6.24, y: 0.45, z: 5.1}
-  m_LocalScale: {x: 8.980211, y: 0.9054913, z: 0.5060754}
+  m_LocalRotation: {x: 0.0002557638, y: -0.70133954, z: -0.00027413215, w: 0.7128273}
+  m_LocalPosition: {x: 5.4934797, y: 3.1595037, z: 4.597973}
+  m_LocalScale: {x: 8.980209, y: 0.90549135, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 795566923}
   m_LocalEulerAnglesHint: {x: -0.001, y: -89.069, z: -0.043}
 --- !u!1 &2132818561
 GameObject:
@@ -2868,12 +2985,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132818561}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.58, y: 0.45, z: 0.06}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.893108, y: -1.0563285, z: -0.56976074}
   m_LocalScale: {x: 0.6739511, y: 0.93413, z: 19.730509}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1268275498}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135484481
 GameObject:
@@ -2888,7 +3005,7 @@ GameObject:
   - component: {fileID: 2135484483}
   - component: {fileID: 2135484482}
   m_Layer: 0
-  m_Name: Muro interior (14)
+  m_Name: ObstaculoFlotante 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2977,11 +3094,11 @@ Transform:
   m_GameObject: {fileID: 2135484481}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.6423769, z: -0, w: 0.76638895}
-  m_LocalPosition: {x: 0, y: 0.45, z: 6.24}
-  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.039913658}
+  m_LocalPosition: {x: -0.74652, y: 3.1595037, z: 5.7379723}
+  m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.03991366}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 729980502}
   m_LocalEulerAnglesHint: {x: 0, y: 79.939, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -2991,25 +3108,7 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 2013169367}
   - {fileID: 645437625}
-  - {fileID: 1483883788}
-  - {fileID: 1567326086}
-  - {fileID: 305688040}
-  - {fileID: 2132818565}
   - {fileID: 578088222}
-  - {fileID: 992818273}
-  - {fileID: 1098316251}
-  - {fileID: 493369408}
-  - {fileID: 1202688528}
-  - {fileID: 1636004948}
-  - {fileID: 2101616858}
-  - {fileID: 1768320894}
-  - {fileID: 1376682128}
-  - {fileID: 1801384114}
-  - {fileID: 982893672}
-  - {fileID: 36126341}
-  - {fileID: 1183837393}
-  - {fileID: 1813488053}
-  - {fileID: 2135484485}
-  - {fileID: 186252991}
-  - {fileID: 447091344}
-  - {fileID: 1473806983}
+  - {fileID: 1268275498}
+  - {fileID: 729980502}
+  - {fileID: 795566923}
