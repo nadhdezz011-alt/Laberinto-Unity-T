@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     public float movimientoEjeX;
     public float movimientoEjeY;
     public float movimientoEjeZ;
-    public float velocidad = 10f;
+    public float velocidad = 200f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
