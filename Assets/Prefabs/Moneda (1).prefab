@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 517646387983959521}
   - component: {fileID: 6669802461537537021}
   m_Layer: 0
-  m_Name: Moneda
-  m_TagString: Untagged
+  m_Name: Moneda (1)
+  m_TagString: Moneda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 5585718764586971516}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6153267, y: 0.37963316, z: -0.36273676, w: 0.5879403}
-  m_LocalPosition: {x: 7.271, y: 0.876, z: -7.007}
-  m_LocalScale: {x: 1, y: 0.0067399363, z: 1.1392}
+  m_LocalPosition: {x: 6.92, y: 0.61, z: -7.01}
+  m_LocalScale: {x: 1, y: 0.006739937, z: 1.1392}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
