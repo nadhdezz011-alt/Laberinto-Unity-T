@@ -4,10 +4,11 @@ public class SistemaRecoleccion : MonoBehaviour
 {
     public int cantidadMonedas = 0;
     public TextMeshProUGUI numero;
-
+    public TextMeshProUGUI numeroFinal;
     private void Update()
     {
         numero.text = cantidadMonedas.ToString();
+        numeroFinal.text = cantidadMonedas.ToString();
     }
 
     private void OnTriggerEnter(Collider other)
