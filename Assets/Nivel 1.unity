@@ -621,7 +621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!4 &133567840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 24895501268952703, guid: b106cf89fbf03dd459431ae131e0dbe8, type: 3}
@@ -1037,6 +1037,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 729980502}
     m_Modifications:
+    - target: {fileID: 413192766617485514, guid: 2e0d527f7601daf4f8abf1ccaa87e191, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: eb5f5826a63cd52408f70e335b68ae6f, type: 2}
     - target: {fileID: 3386673375129123820, guid: 2e0d527f7601daf4f8abf1ccaa87e191, type: 3}
       propertyPath: m_Name
       value: ObstaculoRotante 3
@@ -1886,7 +1890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!1 &992818269
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,7 +2013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!1 &1077934623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,7 +2025,6 @@ GameObject:
   - component: {fileID: 1077934624}
   - component: {fileID: 1077934626}
   - component: {fileID: 1077934625}
-  - component: {fileID: 1077934627}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2062,13 +2065,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.4764151, g: 0.9539775, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2086,33 +2089,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077934623}
   m_CullTransparentMesh: 1
---- !u!54 &1077934627
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077934623}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1098316247
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,7 +2192,7 @@ Transform:
   m_GameObject: {fileID: 1098316247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.0088493815, z: -0, w: 0.99996084}
-  m_LocalPosition: {x: -8.78652, y: 3.1595037, z: 3.0679727}
+  m_LocalPosition: {x: -9.11, y: 3.1595037, z: 3.059}
   m_LocalScale: {x: 2.858588, y: 0.9054913, z: 0.5060754}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2235,7 +2211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!1 &1191686126
 GameObject:
   m_ObjectHideFlags: 0
@@ -2462,7 +2438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!1 &1244303626
 GameObject:
   m_ObjectHideFlags: 0
@@ -2888,7 +2864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!4 &1410399337 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 24895501268952703, guid: b106cf89fbf03dd459431ae131e0dbe8, type: 3}
@@ -3055,7 +3031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!65 &1498048769
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3382,6 +3358,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 729980502}
     m_Modifications:
+    - target: {fileID: 413192766617485514, guid: 2e0d527f7601daf4f8abf1ccaa87e191, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: eb5f5826a63cd52408f70e335b68ae6f, type: 2}
     - target: {fileID: 3386673375129123820, guid: 2e0d527f7601daf4f8abf1ccaa87e191, type: 3}
       propertyPath: m_Name
       value: ObstaculoRotante 2
@@ -3557,7 +3537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!1 &1730787306
 GameObject:
   m_ObjectHideFlags: 0
@@ -3606,7 +3586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!65 &1730787309
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3803,7 +3783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!1 &1801384110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,7 +3906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!1 &1984729091
 GameObject:
   m_ObjectHideFlags: 0
@@ -4487,7 +4467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muro: {fileID: 2100000, guid: 7c6a1b5de82538f4d923d1f75e8f6233, type: 2}
-  MuroEnContacto: {fileID: 2100000, guid: 4d0b39e9e1a7b914889836f7dcc80ea6, type: 2}
+  MuroEnContacto: {fileID: 2100000, guid: f3d2e009823f15442a63a0f5cf6fa6d6, type: 2}
 --- !u!1 &2110933753
 GameObject:
   m_ObjectHideFlags: 0
@@ -4725,6 +4705,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 729980502}
     m_Modifications:
+    - target: {fileID: 413192766617485514, guid: 2e0d527f7601daf4f8abf1ccaa87e191, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: eb5f5826a63cd52408f70e335b68ae6f, type: 2}
     - target: {fileID: 3386673375129123820, guid: 2e0d527f7601daf4f8abf1ccaa87e191, type: 3}
       propertyPath: m_Name
       value: ObstaculoRotante 1
