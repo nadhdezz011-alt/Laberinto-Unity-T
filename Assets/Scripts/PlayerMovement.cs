@@ -11,9 +11,9 @@ public class PlayerMovement : MonoBehaviour
     
     void Update()
     {
-        movimientoEjeZ = Input.GetAxis("Horizontal") * Time.deltaTime * velocidad;
+        /*movimientoEjeZ = Input.GetAxis("Horizontal") * Time.deltaTime * velocidad;
         movimientoEjeX = - Input.GetAxis("Vertical") * Time.deltaTime * velocidad;
-        transform.Translate(movimientoEjeX, 0, movimientoEjeZ);
+        transform.Translate(movimientoEjeX, 0, movimientoEjeZ);*/
         
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = -Input.GetAxis("Vertical");
